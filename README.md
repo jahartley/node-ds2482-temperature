@@ -7,13 +7,13 @@ Provides an interface for Dallas DS18B20 temperature sensors over the DS2482 one
 # Install
 
 ```
-$ npm install ds2482-temperature
+$ npm install @jahartley/ds2482-temperature
 ```
 
 # Usage
 
 ```js
-const DS18B20 = require('ds2482-temperature');
+const DS18B20 = require('@jahartley/ds2482-temperature');
 
 const sense = new DS18B20();
 
@@ -33,7 +33,7 @@ sense.init()
 ## Streaming
 
 ```js
-const DS18B20 = require('ds2482-temperature');
+const DS18B20 = require('@jahartley/ds2482-temperature');
 
 const sense = new DS18B20();
 
